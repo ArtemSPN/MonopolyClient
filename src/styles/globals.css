@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.introPage{
+  width: 100%;
+  height: 70vh;
+  background-color: #9AB895;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startBtn{
+  width: 45%;
+  background-color: #D9D9D9;
+  border-radius: 15px;
+  padding: 10px 15px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.titleAboutUs{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.wrap{
+  background-color: #9AB895;
+  width: 100%;
+  height: 92.7vh;
+  padding-top: 25px;
+
+}
+
+.cardLayout{
+  width: 100%;
+  height: 800px;
+  background-color: #E3E3E3;
+  border-radius: 30px;
+  padding: 45px;
+}
